@@ -1,0 +1,64 @@
+ body{
+   margin:0;
+ }
+ 
+ 
+ 
+ .wrapper{
+ width: 458px;
+ height: 565px;
+ background-color: rgb(206, 207, 200);
+ 
+}
+
+.semicirle{
+   
+     width: 365px;
+    height: 350px;
+    background: #439155;
+    border-radius:  200px;
+    margin-left: -106px;   
+    margin-top: -107px;
+   }
+
+  .triangle{
+     margin-left: auto;
+     margin-top: -240px; 
+     width: 0;
+     height: 0;
+     border: 0 solid transparent;
+     border-top-width: 120px;
+     border-bottom-width: 0px;
+     border-right: 115px solid rgb(194, 11, 11);
+  } 
+
+  .block-blue{
+     position: relative;
+     width: 346px;
+     height: 51px;
+     background-color: blue;
+     transform: rotate(47deg);
+     left: 51px;
+     top: 50px
+  } 
+
+  .block-violet{
+    position: absolute;
+    width: 342px;
+    height: 90px;
+    background-color: blueviolet;
+    border-radius: 29px;
+    margin-top: 134px;
+    margin-left: 57px;
+  
+  }
+
+  .circle{
+    position: absolute;
+    width: 117px;
+    height: 113px;
+    border-radius: 55px;
+    background-color: rgb(59, 141, 77);
+    margin-top: -18px;
+    margin-left: 255px;
+  }
